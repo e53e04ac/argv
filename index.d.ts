@@ -10,11 +10,11 @@ import { ValueOrGet } from 'hold';
 
 export declare namespace Argv {
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly argv: ValueOrGet<string[]>;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;
